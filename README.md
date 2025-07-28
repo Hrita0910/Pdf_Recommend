@@ -4,7 +4,7 @@ This project analyzes PDF documents and extracts the most relevant sections base
 
 The entire system runs in a Docker container and requires no GPU.
 
-## 🛠️ Prerequisites
+## 📦 Prerequisites
 
 - Docker Desktop installed on your system (Windows/Linux/macOS)
 - Your input PDFs placed in an `Input/` folder
@@ -26,6 +26,11 @@ Task_1B
 
 First clone the project in VS Code. Place all your PDF documents to be analyzed inside a folder named `Input` in the project root. 
 
+```bash
+git clone https://github.com/Hrita0910/Pdf_Recommend.git
+cd Task_1B
+```
+
 **Example:**
 ```
 /Input
@@ -37,7 +42,6 @@ First clone the project in VS Code. Place all your PDF documents to be analyzed 
 
 From the root folder (where `Dockerfile` exists), run:
 
-**Terminal / Windows PowerShell:**
 ```powershell
 docker build -t persona-doc-intel .
 ```
@@ -46,7 +50,6 @@ docker build -t persona-doc-intel .
 
 Run the system using the following command:
 
-**Terminal / Windows PowerShell:**
 ```powershell
 docker run -it --rm -v ${PWD}/Input:/app/Input -v ${PWD}/Output:/app/Output persona-doc-intel
 ```
