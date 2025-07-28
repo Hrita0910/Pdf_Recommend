@@ -1,0 +1,75 @@
+{
+    "metadata": {
+        "input_documents": [
+            "South of France - Cities.pdf",
+            "South of France - Cuisine.pdf",
+            "South of France - History.pdf",
+            "South of France - Restaurants and Hotels.pdf",
+            "South of France - Things to Do.pdf",
+            "South of France - Tips and Tricks.pdf",
+            "South of France - Traditions and Culture.pdf"
+        ],
+        "persona": "Travel Planner",
+        "job_to_be_done": "Plan a trip of 4 days for 10 college students",
+        "processing_timestamp": "2025-07-28T09:47:51.560299"
+    },
+    "extracted_sections": [
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "Wear Bulky Items: Wear bulky items like coats or boots during travel to save suitcase",
+            "importance_rank": 1,
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "Language: While French is the oﬃcial language, English is widely spoken in tourist",
+            "importance_rank": 2,
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "section_title": "Best Time to Visit: The best time to visit the South of France is during the spring (April",
+            "importance_rank": 3,
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "Basic Toiletries: Toothbrush, toothpaste, shampoo, conditioner, body wash,",
+            "importance_rank": 4,
+            "page_number": 4
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "section_title": "Essentials",
+            "importance_rank": 5,
+            "page_number": 6
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "Pack a Day Bag: Bring a small day bag for daily excursions. • Leave Room for Souvenirs: Leave extra space or bring a foldable bag for souvenirs.",
+            "page_number": 8
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "refined_text": "Learning a few basic French phrases can enhance your travel experience.",
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Cities.pdf",
+            "refined_text": "to June) and fall (September to October) when the weather is pleasant, and the tourist crowds are smaller.",
+            "page_number": 2
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "deodorant, and personal hygiene items. • Skincare: Sunscreen, moisturizer, and daily skincare products. • Makeup: Pack essentials in a travel-sized makeup bag. • Additional Items: A small sewing kit, nail clippers, and a razor.",
+            "page_number": 4
+        },
+        {
+            "document": "South of France - Tips and Tricks.pdf",
+            "refined_text": "Diapers and Wipes: For babies or toddlers, pack enough diapers and wipes. • Snacks: Bring a variety of snacks for travel and outings. • Toys and Entertainment: Favorite toys, books, or games. Consider a tablet with pre- downloaded content.",
+            "page_number": 6
+        }
+    ]
+}
