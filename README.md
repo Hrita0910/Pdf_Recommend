@@ -79,3 +79,7 @@ Once processing is done, an `Output/Output.json` file will be generated, contain
 - Processing time depends on the size and number of PDF documents
 - All dependencies are handled within the Docker container
 - No GPU required - runs on CPU only
+
+## Note
+
+Some files are already inside Input folder and a .json file is created in the Output folder for testing purposes.
