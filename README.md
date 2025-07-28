@@ -12,19 +12,19 @@ The entire system runs in a Docker container and requires no GPU.
 
 ### Folder Structure
 ```
-.
+Task_1B
 ├── main.py
 ├── Dockerfile
 ├── requirements.txt
-├── Input/                 (← place your PDFs here)
-├── Output/               (← will be created automatically to save results)
+├── Input/              (place your PDFs here)
+├── Output/               
 ```
 
 ## ⚙️ Step-by-Step Guide & Instructions
 
-### 1. 🧾 Create Your Input Folder
+### 1. 🧾 Clone the project
 
-Place all your PDF documents to be analyzed inside a folder named `Input` in the project root.
+First clone the project in VS Code. Place all your PDF documents to be analyzed inside a folder named `Input` in the project root. 
 
 **Example:**
 ```
