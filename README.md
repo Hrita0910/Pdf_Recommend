@@ -24,12 +24,13 @@ Task_1B
 
 ### 1. 🧾 Clone the project
 
-First clone the project in VS Code. Place all your PDF documents to be analyzed inside a folder named `Input` in the project root. 
+First clone the project in VS Code. 
 
 ```bash
 git clone https://github.com/Hrita0910/Pdf_Recommend.git
 cd Task_1B
 ```
+Place all your PDF documents to be analyzed inside a folder named `Input` in the project root. 
 
 **Example:**
 ```
