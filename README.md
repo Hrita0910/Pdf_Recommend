@@ -37,7 +37,7 @@ First clone the project in VS Code. Place all your PDF documents to be analyzed 
 
 From the root folder (where `Dockerfile` exists), run:
 
-**Windows PowerShell:**
+**Terminal / Windows PowerShell:**
 ```powershell
 docker build -t persona-doc-intel .
 ```
@@ -46,7 +46,7 @@ docker build -t persona-doc-intel .
 
 Run the system using the following command:
 
-**Windows PowerShell:**
+**Terminal / Windows PowerShell:**
 ```powershell
 docker run -it --rm -v ${PWD}/Input:/app/Input -v ${PWD}/Output:/app/Output persona-doc-intel
 ```
